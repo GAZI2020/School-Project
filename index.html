@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gazi Educational Hub</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Navigation Header -->
+  <header>
+    <div class="logo">
+      <img src="WhatsApp Image 2024-10-22 at 19.25.51 (1).jpeg" alt="School Logo" class="logo-image">
+      <h1>Gazi Educational Hub</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Homepage Section -->
+  <section id="home" class="hero">
+    <div class="hero-overlay">
+      <h2>Welcome to Our School</h2>
+      <p>Providing quality education for a better future.</p>
+      <button onclick="scrollToSection('about')">Learn More</button>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>Welcome to Your School! Our mission is to provide excellent education and foster a community of learning.</p>
+    <p>We believe in nurturing young minds with strong values and quality education to prepare them for the future.</p>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery">
+    <h2>Our Gallery</h2>
+    <div class="image-container">
+      <div class="image-card">
+        <img src="image1.jfif" alt="Event 1">
+        <div class="image-overlay">
+          <p>Annual Sports Day</p>
+        </div>
+      </div>
+      <div class="image-card">
+        <img src="image2.jfif" alt="Event 2">
+        <div class="image-overlay">
+          <p>Science Fair 2023</p>
+        </div>
+      </div>
+      <div class="image-card">
+        <img src="image3.jfif" alt="Event 3">
+        <div class="image-overlay">
+          <p>Cultural Fest</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events Section -->
+  <section id="events" class="events">
+    <h2>Upcoming Events</h2>
+    <ul>
+      <li><i class="fas fa-calendar-alt"></i> <strong>December 10, 2026</strong> - Annual Day Celebration</li>
+      <li><i class="fas fa-calendar-alt"></i> <strong>January 15, 2026</strong> - New Admissions Open</li>
+      <li><i class="fas fa-calendar-alt"></i> <strong>March 5, 2026</strong> - Science Exhibition</li>
+    </ul>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm" action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Social Media Section -->
+  <section class="social-media">
+    <h2>Follow Us</h2>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/yourpage" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+      <a href="https://twitter.com/yourpage" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+      <a href="https://www.instagram.com/yourpage" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+      <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+      <a href="https://www.youtube.com/channel/yourchannel" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Gazi Educational Hub. All rights reserved.</p>
+    <p>Address: Barasat, Kolkata 700124</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
